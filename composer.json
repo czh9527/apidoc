@@ -1,0 +1,31 @@
+{
+    "name": "czh9527/apidoc",
+    "description": "thinkphp API文档自动生成",
+    "require": {
+        "php": ">=7.1.0",
+        "doctrine/annotations": "^1.6",
+        "symfony/class-loader": "~3.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "czh",
+            "email": "czh95270201@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "czh9527\\apidoc\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "czh9527\\apidoc\\Service"
+            ],
+            "config": {
+                "apidoc": "src/config.php"
+            }
+        }
+    }
+}
