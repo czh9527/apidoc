@@ -1,6 +1,7 @@
 {
     "name": "czh9527/apidoc",
     "description": "thinkphp API文档自动生成",
+    "type": "library",
     "require": {
         "php": ">=7.1.0",
         "doctrine/annotations": "^1.6",
