@@ -7,6 +7,7 @@
         "doctrine/annotations": "^1.6",
         "symfony/class-loader": "~3.2.0"
     },
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
